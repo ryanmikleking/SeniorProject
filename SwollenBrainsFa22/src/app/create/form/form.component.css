@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Merriweather:wght@300&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Merriweather:wght@300&family=Montserrat:wght@400;700&display=swap');
+
+input{
+  width: 15vw;
+  font-family:'Montserrat', 'sans-serif';
+}
+input:focus{
+  outline: none;
+}
+input, input::placeholder{
+  font-size: 1.5rem;
+}
+.input{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 28rem;
+}
+
+
+.submit_btn{
+  height: 3rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 25px;
+  width: 8em;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 450;
+  font-family:'Montserrat', 'sans-serif';
+}
+.submit_btn:hover{
+  background-color: #e0aa51;
+}
+input, button{
+  margin-top: 1.5rem;
+}
+.input-container{
+  display: grid;
+  grid-template-columns:auto auto;
+  grid-template-rows: auto auto auto;
+  width: 20rem;
+  column-gap: 25rem;
+  row-gap: 5rem;
+  margin-left: 8%;
+
+}
+
+input[type="file"]{
+  width: 28rem;
+  border-bottom: 2px solid #000;
+}
+input::file-selector-button{
+  background-color: #e0aa51;
+  color: #fff;
+  height: 2.1rem;
+  border-color: #e0aa51;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family:'Montserrat', 'sans-serif';
+  font-size: 1rem;
+}
+input::file-selector-button:hover{
+  background-color: #000;
+}
+.button-div{
+  width: 100%;
+  display: flex;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+}

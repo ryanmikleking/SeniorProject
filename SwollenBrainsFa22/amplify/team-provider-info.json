@@ -1,0 +1,55 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-swollenbrainsfa22-dev-203852-authRole",
+      "UnauthRoleArn": "arn:aws:iam::986675046318:role/amplify-swollenbrainsfa22-dev-203852-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::986675046318:role/amplify-swollenbrainsfa22-dev-203852-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-swollenbrainsfa22-dev-203852-deployment",
+      "UnauthRoleName": "amplify-swollenbrainsfa22-dev-203852-unauthRole",
+      "StackName": "amplify-swollenbrainsfa22-dev-203852",
+      "StackId": "arn:aws:cloudformation:us-east-1:986675046318:stack/amplify-swollenbrainsfa22-dev-203852/f2bfc550-5985-11ed-af01-0a268f38787f",
+      "AmplifyAppId": "decy02doyhpwc",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-swollenbrainsfa22-dev-203852-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "storage": {
+        "login": {},
+        "dashBoard": {},
+        "statusReport": {}
+      },
+      "function": {
+        "loginFunction": {
+          "deploymentBucketName": "amplify-swollenbrainsfa22-dev-203852-deployment",
+          "s3Key": "amplify-builds/loginFunction-4e37747159555436524b-build.zip"
+        },
+        "swollenbrainsfa221f78c574": {
+          "deploymentBucketName": "amplify-swollenbrainsfa22-dev-203852-deployment",
+          "s3Key": "amplify-builds/swollenbrainsfa221f78c574-2f5171322b556c716d54-build.zip"
+        },
+        "swollenbrainsfa2212b2c7f8": {
+          "deploymentBucketName": "amplify-swollenbrainsfa22-dev-203852-deployment",
+          "s3Key": "amplify-builds/swollenbrainsfa2212b2c7f8-7a5a6a5667457a4d6939-build.zip"
+        },
+        "getReports": {
+          "deploymentBucketName": "amplify-swollenbrainsfa22-dev-203852-deployment",
+          "s3Key": "amplify-builds/getReports-70742f6f37717a632b4a-build.zip"
+        }
+      },
+      "api": {
+        "dashboard": {},
+        "projects": {},
+        "getReports": {}
+      },
+      "auth": {
+        "swollenbrainsfa225a02662b": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "decy02doyhpwc",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

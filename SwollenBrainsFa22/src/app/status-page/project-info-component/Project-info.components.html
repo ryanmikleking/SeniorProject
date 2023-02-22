@@ -1,0 +1,54 @@
+<html>
+<div class="project-box-container">
+    <h2 class="project-info-header">Project Information</h2>
+    
+
+
+    <div class="info-container">    
+        <!-- Started -->
+        <div class="started">
+            <h5 class="opacity"><b>Started: {{projectDesc.Started}} </b></h5>
+        </div>
+        
+        <!-- Status -->
+        <div class="status">
+            <h5 class="opacity"><b>Status: {{projectDesc.Status}}  </b></h5>
+        </div>
+
+        <!-- Description -->
+        <div class="description">
+            <h5 class="opacity"><b>Description of Project: {{projectDesc.descriptionOfProject}}</b></h5>
+        </div>
+        
+        <!-- Owner -->
+        <div class="owner">
+            <h5 class="opacity"><b>Product Owner: {{projectDesc.projectOwner}} </b></h5>
+        </div>
+
+        <!-- Manager -->
+        <div class="manager">
+            <h5 class="opacity"><b>Project Manager: {{projectDesc.projectManager}}  </b></h5>
+        </div>    
+    </div>
+</div>
+<!--
+<div>
+    <table mat-table [dataSource]="dataSource">
+  
+      
+      <ng-container matColumnDef="Date">
+        <p mat-header-cell *matHeaderCellDef> Date </p>
+        <p mat-cell *matCellDef="let element"> {{element.date}} </p>
+      </ng-container>
+
+      <ng-container matColumnDef="Name">
+        <th mat-header-cell *matHeaderCellDef> Name </th>
+        <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+      </ng-container>
+  
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+</div> 
+-->  
+</html>

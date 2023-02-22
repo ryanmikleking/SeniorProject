@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+table{
+  font-family: 'Montserrat', 'sans-serif';
+  width: 33vw;
+}
+
+.mat-header-row{
+  background-color: #e0aa51;
+}
+
+.mat-header-cell{
+  font-family: 'Montserrat', 'sans-serif';
+  color: #fff;
+  font-size:1rem
+}
+
+.mat-elevation-z8{
+  width: 33vw;
+
+  box-shadow: 1px 3px 5px rgb(179, 179, 179) !important;
+}
+
+.mat-stroked-button{
+  border-radius: 10%;
+  height: 2.5vh;
+  width: 4vw;
+  border-color: rgb(160, 160, 160);
+  font-family:'Montserrat', 'sans-serif';
+  font-size: .6rem;
+}
+
+
+.report{
+  color: #e0aa51;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+.table-container{
+  display: flex;
+  flex-direction: column;
+  border: 1px groove;
+  height: 85vh;
+  float: right;
+  align-items: center;
+  width: 39vw;
+}
+
+.mat-paginator{
+  font-family:'Montserrat', 'sans-serif';
+  color: black;
+  width: 58%;
+}
+
+.status-header{
+  color:#e0aa51;
+  border-bottom: 2px solid #e0aa51;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  width: 85%;
+}
+
+h3{
+  font-family: 'Montserrat', 'sans-serif';
+  font-weight: 700;
+  font-size: 1.3rem;
+  height: 1rem;
+}
+
+.minimize{
+  background-color: #e0aa51;
+  height: .15rem;
+  width: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.filter-btn{
+  font-family: 'Montserrat', 'sans-serif';
+  height: 1.75rem;
+  width: 5rem;
+  border-radius: 5px;
+  border: 1px groove gray;
+  cursor: pointer;
+  text-align: left;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.filter{
+  font-size: 1rem;
+  margin-top: .4rem;
+}
+
+.report-filter{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: .5rem;
+}
+
+.add-report{
+  background-color: #e0aa51;
+  color: #fff;
+  border:none;
+  cursor: pointer;
+  margin: 0 1rem 0 3.2rem;
+}
+
+.add-report:hover{
+  color:#e0aa51;
+  border: 1px solid #e0aa51;
+  background-color: #fff;
+}
+
+.export:hover{
+  background-color: #e0aa51;
+  color: #fff;
+  border:none;
+}
+
+.export{
+  color:#e0aa51;
+  border: 1px solid #e0aa51;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.add-report, .export{
+  font-family: 'Montserrat', 'sans-serif';
+  font-weight: 600;
+  border-radius: 20px;
+  width: 8.5rem;
+  height: 2rem;
+  margin-top: 2rem;
+}
+
+.text{
+  margin-bottom: 5rem;
+}
+
+

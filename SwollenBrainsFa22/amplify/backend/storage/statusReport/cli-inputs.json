@@ -1,0 +1,10 @@
+{
+  "resourceName": "statusReport",
+  "tableName": "statusReport",
+  "partitionKey": {
+    "fieldName": "projectID",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

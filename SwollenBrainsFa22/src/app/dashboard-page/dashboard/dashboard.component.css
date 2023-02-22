@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+.main-container{
+  background-image: linear-gradient(180deg,#FBC900,#ED8500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 135vh;
+  width: 100%;
+}
+.item-container{
+  height: 125vh;
+  width: 85%;
+  background-color: #fff;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 50px;
+}
+
+.project-header{
+  margin-top: 8%;
+  margin-left: 9%;
+  height: 20vh;
+  width: 100%;
+}
+
+.acronym{
+  font-weight: 700;
+}
+
+.header-text{
+  font-size: 2.5rem;
+  font-family:'Montserrat', 'sans-serif';
+}
+
+.header-t{
+  margin-top: 2.75rem;
+  font-size: 1.3rem;
+  font-family:'Montserrat', 'sans-serif';
+}
+

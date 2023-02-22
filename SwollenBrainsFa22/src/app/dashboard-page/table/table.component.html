@@ -1,0 +1,39 @@
+<div class="mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource">
+
+    <!-- Date Column -->
+    <ng-container matColumnDef="Project">
+      <th mat-header-cell *matHeaderCellDef> Project </th>
+      <td mat-cell class="column1" *matCellDef="let element" (click)="getProjectID(element)"> {{element.project}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="Full Name">
+      <th mat-header-cell *matHeaderCellDef> Full Name </th>
+      <td mat-cell class="column2" *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+
+    <!-- Report Column -->
+    <ng-container matColumnDef="Contract">
+      <th mat-header-cell *matHeaderCellDef> Contract </th>
+        <td class="column3" mat-cell *matCellDef="let element"> {{element.contract}} </td>
+    </ng-container>
+    <ng-container matColumnDef="#">
+      <th mat-header-cell *matHeaderCellDef> # </th>
+      <td mat-cell class="column4 hash" *matCellDef="let element"> {{element.contractNumber}} </td>
+    </ng-container>
+    <ng-container matColumnDef="Status">
+      <th mat-header-cell *matHeaderCellDef> Status </th>
+      <td mat-cell class="column5" *matCellDef="let element"> {{element.status}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+
+  <mat-paginator [pageSizeOptions]="[6]"
+             showFirstLastButtons
+             aria-label="Select page of report elements">
+  </mat-paginator>
+</div>

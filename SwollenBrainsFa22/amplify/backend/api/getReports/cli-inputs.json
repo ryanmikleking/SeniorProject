@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/reports": {
+      "name": "/reports",
+      "lambdaFunction": "getReports",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

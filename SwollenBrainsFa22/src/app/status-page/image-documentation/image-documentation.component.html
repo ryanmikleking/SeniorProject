@@ -1,0 +1,49 @@
+<div class="border">
+    <div
+    class="title"
+    (click)="onClick()">
+        <div class="title-left">
+            <p>Images & Documentation</p>
+        </div>
+        <div class="title-right">
+            <p>{{ isExpanded ? '-' : '+' }}</p>
+        </div>
+        <hr>
+    </div>
+    
+    <div *ngIf="isExpanded" class="info" [@View]>
+        <div *ngfor="let name of imgNames">
+            <!-- doesn't work now but will do what below does  -->
+            <img src={{name}}>
+        </div>
+        <img src="assets/20201013_205543.jpg"/>
+        <img src="assets/20201013_205543.jpg"/>
+        <img src="assets/20201013_205543.jpg"/>
+        <img src="assets/20201013_205543.jpg"/>
+        <img src="assets/20201013_205543.jpg"/>
+        <img src="assets/20201013_205543.jpg"/>
+
+        <div *ngfor="let name of imgNames">
+            <!-- doesn't work now but will do what below does  -->
+            <p>{{name}}</p>
+        </div>
+        <br>
+        <p>image 1</p>
+        <p>image 2</p>
+        <p>image 3</p>
+        <p>image 4</p>
+        <p>image 5</p>
+        <p>image 6</p>
+        <p>image 7</p>
+        <p>image 8</p>
+        <p>image 9</p>
+        <p>image 10</p>
+        <p>image 11</p>
+        <p>image 12</p>
+        <br>
+        <div class="but">
+            <p style="margin-top:10px;">Drag and Drop Files</p>
+            <p style="text-decoration:underline; font-size: smaller; font-weight: 400;">Click to Browse Files</p>
+        </div>
+    </div>
+</div>

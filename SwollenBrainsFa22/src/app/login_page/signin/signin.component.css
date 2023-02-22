@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Merriweather:wght@300&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Merriweather:wght@300&family=Montserrat:wght@400;700&display=swap');
+
+*{
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+html, body{
+  height: 100vh;
+  width: 100%;
+}
+
+.image-container{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.risen-one-logo{
+  height: 30rem;
+  width: 30rem;
+}
+
+body{
+  background-image:url('../../../assets/risen-one_mountain.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #fff;
+  width: 65vw;
+  height: 65vh;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div-line{
+  width: .15rem;
+  height: 25rem;
+  background: #000;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+}
+input, button{
+  margin-top: 1.5rem;
+}
+input{
+  width: 15vw;
+}
+input:focus{
+  outline: none;
+}
+input, input::placeholder{
+  font-size: 1.5rem;
+}
+.submit_btn{
+  height: 3rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 25px;
+  width: 18em;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 450;
+}
+.headings{
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.email_input, .password_input{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 23rem;
+}
+
+.email_input{
+  margin-bottom: 1rem;
+}
+
+.link_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+}
+.sub-title{
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  font-family:'Montserrat', 'sans-serif';
+
+}
+.title{
+  font-size: 5rem;
+  font-weight: 575;
+  font-family:'Montserrat', 'sans-serif';
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+.text-div{
+  height: 1.5rem;
+  margin-left: .5rem;
+}
+.or{
+  color: #000;
+  font-size: 1.25rem;
+  margin-top: .75rem;
+}
+a{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.25rem;
+}
+.login-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+amplify-authenticator{
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}

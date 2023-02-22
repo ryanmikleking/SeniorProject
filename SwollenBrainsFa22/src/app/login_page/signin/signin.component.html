@@ -1,0 +1,36 @@
+<body>
+  <div class="main-container">
+    <div class="image-container">
+      <img src="../assets/Risen-One.png" alt="" class="risen-one-logo" height="400" width="400">
+    </div>
+    <div class="div-line"></div>
+    <div class="login-container">
+      <div class="headings">
+        <h5 class="sub-title">PROJECT TRACKING</h5>
+        <h2 class="title">PORTAL</h2>
+      </div>
+      <form class='form' action="">
+        <div class="input-container">
+          <amplify-authenticator>
+            <ng-template
+              amplifySlot="authenticated"
+              let-user="user"
+              let-signOut="signOut"
+            >
+            </ng-template>
+          </amplify-authenticator>
+        </div>
+
+        <h5 class="or">OR</h5>
+        <div class="link_container">
+          <a href="" class="google_link"><img height="30" width="30" class='googe-img' src="../assets/Google-yellow-transparent.png" alt=""></a>
+          <div class="text-div">
+            <a href=""><p>Sign in with Google Accounts</p></a>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+</body>

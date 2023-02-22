@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/projects": {
+      "name": "/projects",
+      "lambdaFunction": "swollenbrainsfa2212b2c7f8",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

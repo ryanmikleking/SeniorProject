@@ -1,0 +1,61 @@
+
+  <div class="table-container">
+  <div class="status-header">
+    <h3> Status Updates </h3>
+    <div class="minimize" id="min" >  </div>
+  </div>
+
+    <!-- (click)="hideDiv($event)" *ngIf="isShown"-->
+      <div class="mat-elevation-z8">
+        
+        <table mat-table [dataSource]="dataSource" >
+
+          <!-- Date Column -->
+          <ng-container matColumnDef="Date">
+            <th mat-header-cell *matHeaderCellDef> Date </th>
+            <td mat-cell *matCellDef="let element"> {{projectReports}} </td>
+          </ng-container>
+
+          <!-- Name Column -->
+          <ng-container matColumnDef="Name">
+            <th mat-header-cell *matHeaderCellDef> Name </th>
+            <td mat-cell *matCellDef="let element"> {{projectReports}} </td>
+          </ng-container>
+
+          <!-- Report Column -->
+          <ng-container matColumnDef="Report">
+            <th mat-header-cell *matHeaderCellDef> Report </th>
+              <td class="report" mat-cell *matCellDef="let element"> {{projectReports}} </td>
+            
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+        </div>
+
+
+      <div class="report-filter">
+        <button class="filter-btn">
+            Filter
+          <mat-icon class="filter"> filter_list </mat-icon>
+        </button>
+
+        <mat-paginator [pageSizeOptions]="[10]"
+                   showFirstLastButtons
+                   aria-label="Select page of report elements">
+        </mat-paginator>
+      </div>
+
+            <div class="btn-container">
+              <button class="add-report">
+                <span class="text">Add Report</span>
+              </button>
+              <button class="export">
+                <span class="text">Export Data</span>
+              </button>
+          </div>
+      </div>
+
+
+
